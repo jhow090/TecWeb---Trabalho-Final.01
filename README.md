@@ -4,14 +4,14 @@ Primeira etapa do trabalho final de TecWeb
 
 **INTEGRANTES**
 
--Isabella Picirillo
+-Isabella Voso 1700699
 
--Johnny Santos
+-Johnny Santos 1700254
 
--André Soares
+-André Soares 1700123
 
--Gabriel Pinese
+-Gabriel Pinese 1700137
 
--Gabriel Bueno
+-Gabriel Bueno 1601606
 
--Leonardo Kobayashi
+-Leonardo Kobayashi 1700177
