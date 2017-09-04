@@ -1,1 +1,81 @@
 
+/* Menu*/
+#menu{
+	display: block;
+}
+#homepage{display: block;}
+
+#menu ul{
+		list-style: none;
+		text-transform: uppercase;
+		position: relative;
+		left: 300px;
+		top:-20px;
+			}
+
+#homepage ul{
+		list-style: none;
+		position: absolute;
+		left: 50px;
+		top:-30px;
+	}
+#menu li{
+	display: inline-block;
+	background-color:#01a0e2;
+	padding: 25px;
+	margin: 5px;
+	transition: background-color 1s;
+
+}
+#menu li:hover{
+	background-color: #254997;
+}
+
+#menu a{
+	color:white;
+	text-decoration:none; 
+}
+
+/*textos*/
+p{
+text-align: justify;
+text-indent: 50px;
+
+}
+
+/*estrutura*/
+body{
+	background-color: #dddddd;
+}
+#interface{
+	width: 700px;
+	position: relative;
+	left:  200px;
+}
+#conteudo{
+	background-color:#dddddd;
+}
+#rodape{
+	background-color: #01a0e2;
+}
+#noticias {
+		background-color:white;
+	}
+#depoimentos {
+		background-color:white ;
+	}
+#interface a{
+	text-decoration: none;
+	color: #01a0e2;
+}
+#interface a:hover{
+	color: #254997;
+}
+#noticias h4{
+	color:black;
+	text-align: center;
+}
+#noticias h4:hover{
+	color:#01a0e2;
+}
+
