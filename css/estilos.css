@@ -1,25 +1,26 @@
 
 /* Menu*/
-#menu{
+.menu{
 	display: block;
 }
-#homepage{display: block;}
+.homepage{display: block;}
 
-#menu ul{
+.menu ul{
 		list-style: none;
 		text-transform: uppercase;
 		position: relative;
 		left: 300px;
 		top:-20px;
+		
 			}
 
-#homepage ul{
+.homepage ul{
 		list-style: none;
 		position: absolute;
 		left: 50px;
 		top:-30px;
 	}
-#menu li{
+.menu li{
 	display: inline-block;
 	background-color:#01a0e2;
 	padding: 25px;
@@ -27,11 +28,11 @@
 	transition: background-color 1s;
 
 }
-#menu li:hover{
+.menu li:hover{
 	background-color: #254997;
 }
 
-#menu a{
+.menu a{
 	color:white;
 	text-decoration:none; 
 }
@@ -45,37 +46,41 @@ text-indent: 50px;
 
 /*estrutura*/
 body{
-	background-color: #dddddd;
+	background-color: #cccccc;
 }
-#interface{
+.interface{
 	width: 700px;
 	position: relative;
 	left:  200px;
+	font-family:arial;
 }
-#conteudo{
-	background-color:#dddddd;
+.conteudo{
+	background-color:#cccccc;
 }
-#rodape{
-	background-color: #01a0e2;
-}
-#noticias {
-		background-color:white;
+
+.noticias {
+		background-color:#dcdcdc;
+		border:1px solid black;
+		
 	}
-#depoimentos {
-		background-color:white ;
+.depoimentos {
+		background-color:#cccccc ;
 	}
-#interface a{
+.interface a{
 	text-decoration: none;
 	color: #01a0e2;
 }
-#interface a:hover{
+.interface a:hover{
 	color: #254997;
 }
-#noticias h4{
+.noticias h4{
 	color:black;
 	text-align: center;
 }
-#noticias h4:hover{
+.noticias h4:hover{
 	color:#01a0e2;
 }
 
+footer{
+	background-color: #01a0e2;
+}
