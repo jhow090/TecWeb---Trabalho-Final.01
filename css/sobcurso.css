@@ -1,0 +1,21 @@
+h1,h2,h4,h5{
+	padding: 1em;
+}
+h3{
+	text-align: center;
+	padding: 1em;
+
+}
+ ul {
+	list-style: none;
+}
+}
+p{
+text-align: justify;
+}
+.interface{
+	background-color:#cccccc;
+	padding: 50px;
+	padding-top: 170px;
+
+}

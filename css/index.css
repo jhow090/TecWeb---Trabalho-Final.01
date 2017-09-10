@@ -1,0 +1,30 @@
+h1,h2,h3,h4,h5{
+	text-align: center;
+}
+p{
+text-align: justify;
+text-indent: 50px;
+
+}
+
+.interface{
+	padding: 50px;
+	padding-top: 170px;
+}
+
+.noticias {
+		background-color:#dcdcdc;
+		border:1px solid black;
+		
+	}
+
+.noticias h4{
+	color:black;
+	text-align: center;
+}
+.noticias h4:hover{
+	color:#01a0e2;
+}
+
+
+.noticias img{width: 220px;}
