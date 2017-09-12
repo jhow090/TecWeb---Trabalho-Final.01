@@ -1,0 +1,15 @@
+h3,{text-align: center;}
+p{
+text-align: justify;
+text-indent: 50px;
+
+}
+
+.conteudo{
+	padding: 50px;
+	padding-top: 170px;
+}
+
+footer{
+	bottom: 0;
+}
