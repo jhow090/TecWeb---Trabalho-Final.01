@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Faculdade DezImpata</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<fieldset>
+		<label class="contato"><center> CONTATO </center></label><br><br/>
+		<form name="form_contato" method="post" action="">
+			<label>Assunto</label><br/>
+			<select name="assunto" required="">
+				<option value="">--Selecione--</option>
+				<option value="atendimento">Atendimento</option>
+				<option value="secretaria" >Secretaria</option>
+				<option value="financeiro" >Financeiro</option>
+				<option value="coordenacao" >Coordenação</option>
+				<option value="ouvidoria" >Ouvidoria</option>
+			</select>
+			<br><br/><br><br/><br><br/><br><br/>
+
+			<label>Nome</label><br><br/>
+			<input type="text" name="nome" placeholder="Insira seu nome" required=""><br><br/>
+	
+			<label>e-mail</label><br/>
+			<input type="e-mail" name="email" placeholder="Insira seu e-mail" required="" /><br/>
+	
+			<label>Telefone</label><br/>
+			<input type="text" name="telefone" placeholder="Insira seu telefone" required="" /><br/>
+
+			<label>Mensagem:</label><br/>
+			<textarea name="comentario" cols="50" rows="5" required=""></textarea>
+			<br><br/><br><br/>	
+			<center>
+			<input type="submit" value="Enviar" class="button" />
+			<input type="reset" value="Limpar" class="button"><br/>
+			</center>
+		</form>
+	</fieldset>
+
+</body>
+</html>
